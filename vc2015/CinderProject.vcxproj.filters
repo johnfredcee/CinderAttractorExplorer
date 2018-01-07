@@ -1,0 +1,97 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{CB110E88-ED8E-4678-A274-E9778980E61E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\NanoVG">
+      <UniqueIdentifier>{49191B0D-B806-4CCF-B5AC-5FD27209E533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\NanoVG\deps">
+      <UniqueIdentifier>{ABC9508D-C9D4-4AF8-9AFE-A92591E5FBBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\NanoVG\deps\nanovg">
+      <UniqueIdentifier>{AAE13E51-1641-4ED5-9DC3-C2592115F7FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\NanoVG\deps\nanovg\src">
+      <UniqueIdentifier>{C74CFF1E-BB72-4341-846A-4BB001C0FFD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\NanoVG\include">
+      <UniqueIdentifier>{2AD6BB20-7E68-4C28-8FEB-2B8309959F33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\NanoVG\src">
+      <UniqueIdentifier>{EE625DF9-3D03-405B-A331-86C5A4FE5E65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\CinderProjectApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CinderProjectApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\deps\nanovg\src\fontstash.h">
+      <Filter>Blocks\NanoVG\deps\nanovg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\deps\nanovg\src\nanovg.h">
+      <Filter>Blocks\NanoVG\deps\nanovg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\deps\nanovg\src\nanovg_gl.h">
+      <Filter>Blocks\NanoVG\deps\nanovg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\deps\nanovg\src\nanovg_gl_utils.h">
+      <Filter>Blocks\NanoVG\deps\nanovg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\deps\nanovg\src\stb_image.h">
+      <Filter>Blocks\NanoVG\deps\nanovg\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\deps\nanovg\src\stb_truetype.h">
+      <Filter>Blocks\NanoVG\deps\nanovg\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\blocks\NanoVG\deps\nanovg\src\nanovg.c">
+      <Filter>Blocks\NanoVG\deps\nanovg\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\blocks\NanoVG\include\ci_nanovg.hpp">
+      <Filter>Blocks\NanoVG\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\include\ci_nanovg_gl.hpp">
+      <Filter>Blocks\NanoVG\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\NanoVG\include\SvgRenderer.hpp">
+      <Filter>Blocks\NanoVG\include</Filter>
+    </ClInclude>
+    <ClCompile Include="..\blocks\NanoVG\src\ci_nanovg.cpp">
+      <Filter>Blocks\NanoVG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\NanoVG\src\ci_nanovg_gl.cpp">
+      <Filter>Blocks\NanoVG\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\blocks\NanoVG\src\SvgRenderer.cpp">
+      <Filter>Blocks\NanoVG\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
