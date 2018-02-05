@@ -1,3 +1,5 @@
+
+#include "cinder/Filesystem.h"
 #include "ci_nanovg.hpp"
 #include "SvgRenderer.hpp"
 

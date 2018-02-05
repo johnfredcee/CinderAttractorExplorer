@@ -1,3 +1,5 @@
+
+#include "cinder/Filesystem.h"
 #include "ci_nanovg_gl.hpp"
 
 #if defined(CINDER_GL_ES_3)

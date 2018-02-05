@@ -1,3 +1,5 @@
+
+#include "cinder/Filesystem.h"
 #include "ci_nanovg.hpp"
 #include "SvgRenderer.hpp"
 
@@ -344,7 +346,7 @@ void Context::stroke() {
 // Text //
 
 int Context::createFont(const std::string &name, const fs::path &filepath) {
-  return nvgCreateFont(get(), name.c_str(), filepath.c_str());
+  return nvgCreateFont(get(), name.c_str(), filepath.string().c_str());
 }
 int Context::createFont(const std::string &name, const std::string &filename) {
   return nvgCreateFont(get(), name.c_str(), filename.c_str());
